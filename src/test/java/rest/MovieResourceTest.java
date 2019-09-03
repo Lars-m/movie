@@ -41,7 +41,7 @@ public class MovieResourceTest {
         //First Drop and Rebuild the test database 
         emf = EMF_Creator.createEntityManagerFactory(
                 "pu",
-                "jdbc:mysql://localhost:3307/startcode",
+                "jdbc:mysql://localhost:3307/startcode_test",
                 "dev",
                 "ax2",
                 EMF_Creator.Strategy.DROP_AND_CREATE);
